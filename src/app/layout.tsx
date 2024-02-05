@@ -3,11 +3,11 @@ import Header from "../components/Header";
 import { Oswald, Raleway } from "next/font/google";
 import "./globals.css";
 
-export const oswald = Oswald({
+const oswald = Oswald({
   subsets: ["latin"],
   display: "swap",
 });
-export const raleway = Raleway({
+const raleway = Raleway({
   subsets: ["latin"],
   variable: "--font-raleway",
   display: "swap",
