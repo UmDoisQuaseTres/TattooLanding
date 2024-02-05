@@ -1,5 +1,3 @@
-"use server";
-import React from "react";
 import { Resend } from "resend";
 import { zodType } from "@/components/InfoForm";
 
