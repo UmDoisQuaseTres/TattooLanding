@@ -1,6 +1,6 @@
 "use client";
 import { useForm, SubmitHandler } from "react-hook-form";
-import POST from "@/app/api/send/route";
+import SendMail from "@/app/api/send/route";
 import { z } from "zod";
 import contactForm from "../stateStorage";
 
@@ -17,7 +17,7 @@ export default function App() {
   const { register, handleSubmit } = useForm<zodType>();
   const onSubmit: SubmitHandler<zodType> = (data) => {
     /*addContact(data);*/
-    POST(data);
+    SendMail(data);
   };
   const contact = contactForm((state) => state.contacts);
   return (

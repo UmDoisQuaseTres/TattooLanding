@@ -1,3 +1,4 @@
+"use server";
 import { Resend } from "resend";
 import { zodType } from "@/components/InfoForm";
 
@@ -14,7 +15,7 @@ type DataType = {
   email: string;
   message: string;
 };
-export default async function POST(data: DataType) {
+export default async function SendMail(data: DataType) {
   const resend = new Resend("re_F12cphYn_84QWgNDky5NaMVsq8MWVpnGv");
 
   const email = await resend.emails.send({
