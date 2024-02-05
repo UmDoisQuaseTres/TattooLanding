@@ -1,6 +1,6 @@
 "use client";
 import { useForm, SubmitHandler } from "react-hook-form";
-import SendMail from "@/app/api/send/route";
+import SendMail from "@/app/api/send";
 import { z } from "zod";
 import contactForm from "../stateStorage";
 
