@@ -5,12 +5,10 @@ import "./globals.css";
 
 const oswald = Oswald({
   subsets: ["latin"],
-  display: "swap",
 });
 const raleway = Raleway({
   subsets: ["latin"],
   variable: "--font-raleway",
-  display: "swap",
 });
 
 export const metadata: Metadata = {
