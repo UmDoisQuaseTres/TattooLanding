@@ -1,22 +1,36 @@
-import InfoForm from "@/components/InfoForm";
 import MyHistory from "@/components/MyHistory";
 import MyWork from "@/components/MyWorks";
+import Image from "next/image";
+import banner from "../../public/banner.svg";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
     <main>
       <div>
-        <section
+        {/*
+           <section
           id="about"
           className="flex w-full h-[946px] bg-[url('../../public/banner.svg')]"
         >
-          <div
-            id="banner-about"
-            className="flex w-full items-center max-w-[1280px] "
-          >
-            <div className="flex flex-col w-full items-end text-white mb-40">
+  */}
+        <section id="about" className="max-w-[1280px]">
+          <div id="banner-about" className="flex w-full max-w-[1280px]">
+            <div
+              id="image"
+              className="flex w-full items-center justify-center absolute"
+            >
+              <Image
+                src={banner}
+                alt="banner-principal"
+                width={1280}
+                height={948}
+                priority
+              />
+            </div>
+            <div className="flex flex-col w-full items-end text-white mt-28 relative">
               <h1 className="text-[118px]">Eu sou Leandro.</h1>
-              <p className="text-[20px] font-sans mr-[181px]">
+              <p className="text-[20px] font-sans mr-44">
                 Tatuagens tem poder, não só no corpo como na alma,
                 <br /> e meu objetivo é te ajudar a alcançar esses poderes.
               </p>
@@ -31,10 +45,10 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <MyHistory />
-        <MyWork />
-        <InfoForm />
       </div>
+      <MyHistory />
+      <MyWork />
+      <Footer />
     </main>
   );
 }
