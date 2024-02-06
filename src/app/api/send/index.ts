@@ -1,6 +1,5 @@
 "use server";
 import { Resend } from "resend";
-import { zodType } from "@/components/InfoForm";
 
 /*const contact = contactForm((state) => state.contacts);
 const extractedFields = contact.map((obj) => ({
