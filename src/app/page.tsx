@@ -6,16 +6,13 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main>
-      <div>
-        {/*
-           <section
-          id="about"
-          className="flex w-full h-[946px] bg-[url('../../public/banner.svg')]"
-        >
-  */}
-        <section id="about" className="max-w-[1280px]">
-          <div id="banner-about" className="flex w-full max-w-[1280px]">
+    <div>
+      <main className="flex w-full items-center justify-center">
+        <section id="about" className="flex w-full max-w-[1280px]">
+          <div
+            id="banner-about"
+            className="flex w-full max-w-[1280px] justify-center"
+          >
             <div
               id="image"
               className="flex w-full items-center justify-center absolute"
@@ -28,8 +25,8 @@ export default function Home() {
                 priority
               />
             </div>
-            <div className="flex flex-col w-full items-end text-white mt-28 relative">
-              <h1 className="text-[118px]">Eu sou Leandro.</h1>
+            <div className="flex flex-col w-full items-end text-white mt-28 mr-10 relative ">
+              <h1 className="text-[118px] ">Eu sou Leandro.</h1>
               <p className="text-[20px] font-sans mr-44">
                 Tatuagens tem poder, não só no corpo como na alma,
                 <br /> e meu objetivo é te ajudar a alcançar esses poderes.
@@ -45,10 +42,10 @@ export default function Home() {
             </div>
           </div>
         </section>
-      </div>
+      </main>
       <MyHistory />
       <MyWork />
       <Footer />
-    </main>
+    </div>
   );
 }
