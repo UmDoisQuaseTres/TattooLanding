@@ -28,10 +28,12 @@ export default function MyHistory() {
             trabalho. É só clicar no botão abaixo:
           </h1>
           <div
-            className="flex justify-center items-center mt-10 h-[67px] w-[193px] border-black border-2
+            className="flex justify-center items-center mt-10 
               "
           >
-            <button className="text-lg cursor-pointer">SAIBA MAIS </button>
+            <button className="text-lg cursor-pointer h-[67px] w-[193px] border-black border-2">
+              SAIBA MAIS
+            </button>
           </div>
         </div>
       </section>
