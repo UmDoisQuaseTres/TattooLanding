@@ -24,8 +24,8 @@ export default function MyHistory() {
           </h1>
           <h1 className="text-lg leading-[187%] font-sans">
             Trabalhando com tatuagens desde 2000, trilhando um caminho de
-            desafios, supereações e muitos investimentos. Venha conhecer meu
-            trabalho. É só clicar no botão abaixo:
+            desafios, superações e muitos investimentos. Venha conhecer meu
+            trabalho.
           </h1>
           <div
             className="flex justify-center items-center mt-10 
