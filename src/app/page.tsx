@@ -13,7 +13,7 @@ export default function Home() {
             id="image"
             className="flex max-h-[948px] h-screen max-w-[1280px] justify-center absolute"
           >
-            <Image src={banner} alt="banner-principal" priority />
+            <Image src={banner} alt="intro" priority />
           </div>
           <div id="banner-about" className="flex w-full justify-center">
             <div className="flex flex-col w-full items-end text-white mt-28 mr-10 relative ">
