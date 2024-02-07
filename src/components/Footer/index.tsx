@@ -18,7 +18,10 @@ export default function ContactForm() {
 
   return (
     <main className="flex w-full items-center justify-center mt-20">
-      <footer className="flex w-full max-w-[1280px] h-[250px] bg-footer justify-center items-center">
+      <section
+        id="end"
+        className="flex w-full max-w-[1280px] h-[250px] bg-footer justify-center items-center"
+      >
         <div>
           <h1 className="text-white">
             Leandro Viana - Tatuador profissional - todos os direitos
@@ -54,7 +57,7 @@ export default function ContactForm() {
             </button>
           </div>
         </div>
-      </footer>
+      </section>
     </main>
   );
 }

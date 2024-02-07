@@ -8,10 +8,10 @@ export default function Home() {
   return (
     <div>
       <main className="flex w-screen justify-center">
-        <section id="about" className="flex w-screen max-w-[1280px]">
+        <section id="about" className="flex w-screen h-screen max-w-[1280px]">
           <div
             id="image"
-            className="flex  max-h-[948px] max-w-[1280px] justify-center absolute"
+            className="flex max-h-[948px] h-screen max-w-[1280px] justify-center absolute"
           >
             <Image src={banner} alt="banner-principal" priority />
           </div>
@@ -22,14 +22,6 @@ export default function Home() {
                 Tatuagens tem poder, não só no corpo como na alma,
                 <br /> e meu objetivo é te ajudar a alcançar esses poderes.
               </p>
-              <div
-                className="flex justify-center mr-[460px] mt-[50px] bg-transparent border-white border-2
-              "
-              >
-                <button className="h-[67px] w-[193px] cursor-pointer ">
-                  Saiba mais
-                </button>
-              </div>
             </div>
           </div>
         </section>

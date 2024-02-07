@@ -20,15 +20,15 @@ export default function Header() {
             <p className="cursor-pointer">Home</p>
           </Link>
 
-          <Link href="/sobre">
+          <Link href="#myhistory">
             <p className="cursor-pointer">Sobre</p>
           </Link>
 
-          <Link href="/galeria">
+          <Link href="#work">
             <p className="cursor-pointer">Galeria</p>
           </Link>
 
-          <Link href="/contato">
+          <Link href="#end">
             <p className="cursor-pointer">Contato</p>
           </Link>
         </div>

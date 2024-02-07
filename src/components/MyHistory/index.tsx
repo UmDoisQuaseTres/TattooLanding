@@ -5,8 +5,8 @@ export default function MyHistory() {
   return (
     <main className="flex w-full items-center justify-center">
       <section
-        id="footer "
-        className="flex w-full mt-16 max-w-[1280px] items-center justify-center"
+        id="myhistory "
+        className="flex w-full max-w-[1280px] items-center justify-center"
       >
         <div className=" flex w-full">
           <Image
