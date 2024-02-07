@@ -18,20 +18,20 @@ export default function MyHistory() {
           />
         </div>
         <div id="legend" className="w-full ">
-          <h1 className="text-7xl leading-[108%] mb-5">
+          <h1 className="text-[50px] lg:text-7xl lg:leading-[108%] mb-5">
             Minha
             <br /> história:
           </h1>
-          <h1 className="text-lg leading-[187%] font-sans">
+          <h1 className="lg:text-lg lg:leading-[187%] font-sans">
             Trabalhando com tatuagens desde 2000, trilhando um caminho de
             desafios, supereações e muitos investimentos. Venha conhecer meu
             trabalho. É só clicar no botão abaixo:
           </h1>
           <div
-            className="flex justify-center items-center mt-10 
+            className="flex lg:justify-center items-center mt-10 mb-10 lg:mb-0 
               "
           >
-            <button className="text-lg cursor-pointer h-[67px] w-[193px] border-black border-2">
+            <button className="text-lg cursor-pointer h-[37px] w-[97px] lg:h-[67px] lg:w-[193px] border-black border-2 rounded-sm">
               SAIBA MAIS
             </button>
           </div>

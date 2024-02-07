@@ -16,9 +16,9 @@ export default function Home() {
             <Image src={banner} alt="intro" priority />
           </div>
           <div id="banner-about" className="flex w-full justify-center">
-            <div className="flex flex-col w-full items-end text-white mt-28 mr-10 relative ">
-              <h1 className="text-[118px] ">Eu sou Leandro.</h1>
-              <p className="text-[20px] font-sans mr-44 ">
+            <div className="flex flex-col w-full lg:items-end items-center text-white mt-28 lg:mr-10 relative ">
+              <h1 className="text-[50px] lg:text-[118px]">Eu sou Leandro.</h1>
+              <p className="text-sm lg:text-[20px] font-sans lg:mr-44">
                 Tatuagens tem poder, não só no corpo como na alma,
                 <br /> e meu objetivo é te ajudar a alcançar esses poderes.
               </p>
